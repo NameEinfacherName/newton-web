@@ -1,0 +1,18 @@
+Zu diesem Verzeichnis:
+======================
+Hier kšnnen Newton-II Dokumente abgelegt werden, auf die im Programm direkt und
+schnell Ÿber das Beispiele-UntermenŸ im Hilfe-MenŸ zugegriffen werden kann.
+
+Verwendung:
+===========
+Es werden im MenŸ nur Dateien mit der Endung â.newton2Ô angezeigt.
+Zur Anordnung kšnnen die Dateien mit vorangestelltem # mit darauf folgender
+Ordnungszahl und wiederum darauf folgendem Unterstrich '_' versehen werden. Dieser
+Code wird nicht im MenŸ angezeigt.
+Weiterhin kšnnen Separatoren eingefŸgt werden um die †bersichtlichkeit zu erhšhen.
+Dazu leere Dateien erzeugen und mit dem gewŸnschten Ordnungs-Code (z.B. #07_) 
+und abschlie§endem '---' versehen. Diese Dateien dŸrfen keine Endung haben!
+
+Hinweis:
+========
+Es empfiehlt sich die Dateien als 'nur lesbar' zu kennzeichnen.

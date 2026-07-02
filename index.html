@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Newton II Mobile</title>
+   <script src="https://cjrtnc.leaningtech.com/4.3/loader.js"></script>
+    <style>
+        body { 
+            margin: 0; 
+            background: #222; 
+            display: flex; 
+            justify-content: center; 
+            align-items: center; 
+            height: 100vh; 
+            overflow: hidden;
+        }
+        /* Full screen container for mobile responsiveness */
+        #cheerpj-container { 
+            width: 100vw; 
+            height: 100vh; 
+        }
+    </style>
+</head>
+<body>
+
+    <div id="cheerpj-container"></div>
+
+    <script type="module">
+        // 1. Initialize the CheerpJ WebAssembly environment with Java 11 support
+        await cheerpjInit({
+            version: "11",
+            enableStandardStyles: true,
+            overrideAppletSize: true
+        });
+
+        // 2. Target the container div for your Java window
+        cheerpjCreateDisplay(-1, -1, document.getElementById("cheerpj-container"));
+        
+        // 3. Run the compiled Jar file asynchronously
+        await cheerpjRunJar("/app/Wuerzburg/Newton-II.jar");
+    </script>
+    
+</body>
+</html>

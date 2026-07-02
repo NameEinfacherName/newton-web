@@ -1,0 +1,17 @@
+On this folder:
+======================
+Here Newton-II documents can be stored on the in the program can be accessed via the Examples menu directly and quickly.
+
+use:
+===========
+Only files with the suffix '.lagrange‘ appears on the menu.
+In order to arrange the files prefixed # with subsequent
+are atomic number and turn it the following underscore '_' provided. This
+code does not appear in the menu.
+Further separators can be inserted to increase the clarity.
+These create empty files and with the desired trim code (eg # 07_)
+and ending with '---' is provided. These files may have no ending!
+
+Note:
+========
+It is recommended that the files as 'read only' to identify, prevent them from being accidentally changed by the user.
